@@ -52,3 +52,6 @@ axbacktrace = { git = "https://github.com/kern-crates/axbacktrace.git" }
 rand = "0.8"
 axhal = { git = "https://github.com/Starry-OS/axhal.git", features = ["fp_simd"] }
 axtask = { git = "https://github.com/Starry-OS/axtask.git", features = ["test"] }
+
+[patch.'https://github.com/Starry-OS/taskctx.git']
+taskctx = { git = 'https://github.com/os-checker/taskctx.git', branch = 'os-checker' }
